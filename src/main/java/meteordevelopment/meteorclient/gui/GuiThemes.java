@@ -6,7 +6,7 @@
 package meteordevelopment.meteorclient.gui;
 
 import meteordevelopment.meteorclient.MeteorClient;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.GonbleWareGuiTheme;
+import meteordevelopment.meteorclient.gui.themes.coziClient.GonbleWareGuiTheme;
 import meteordevelopment.meteorclient.gui.themes.meteor.MeteorGuiTheme;
 import meteordevelopment.meteorclient.utils.PostInit;
 import meteordevelopment.meteorclient.utils.PreInit;
@@ -49,7 +49,7 @@ public class GuiThemes {
             }
         }
 
-        if (theme == null) select("GonbleWare");
+        if (theme == null) select("Cozy");
 
         if (FILE.exists()) {
             try {
@@ -57,7 +57,7 @@ public class GuiThemes {
 
                 if (tag != null) {
                     if (!tag.getBoolean("hadGonbleWareTheme")) {
-                        select("GonbleWare");
+                        select("Cozy");
                         hadGonbleWareTheme = true;
                     }
                 }

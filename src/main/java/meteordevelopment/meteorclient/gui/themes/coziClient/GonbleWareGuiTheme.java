@@ -3,17 +3,17 @@
  * Copyright (c) Meteor Development.
  */
 
-package meteordevelopment.meteorclient.gui.themes.gonbleware;
+package meteordevelopment.meteorclient.gui.themes.coziClient;
 
 import meteordevelopment.meteorclient.gui.DefaultSettingsWidgetFactory;
 import meteordevelopment.meteorclient.gui.GuiTheme;
 import meteordevelopment.meteorclient.gui.WidgetScreen;
 import meteordevelopment.meteorclient.gui.renderer.packer.GuiTexture;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.widgets.*;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.widgets.input.WGbonleWareDropdown;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.widgets.input.WGonbleWareSlider;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.widgets.input.WGonbleWareTextBox;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.widgets.pressable.*;
+import meteordevelopment.meteorclient.gui.themes.coziClient.widgets.*;
+import meteordevelopment.meteorclient.gui.themes.coziClient.widgets.input.WGbonleWareDropdown;
+import meteordevelopment.meteorclient.gui.themes.coziClient.widgets.input.WGonbleWareSlider;
+import meteordevelopment.meteorclient.gui.themes.coziClient.widgets.input.WGonbleWareTextBox;
+import meteordevelopment.meteorclient.gui.themes.coziClient.widgets.pressable.*;
 import meteordevelopment.meteorclient.gui.utils.AlignmentX;
 import meteordevelopment.meteorclient.gui.utils.CharFilter;
 import meteordevelopment.meteorclient.gui.widgets.*;
@@ -99,7 +99,7 @@ public class GonbleWareGuiTheme extends GuiTheme {
     public final Setting<SettingColor> textColor = color(sgTextColors, "text", "Color of text.", new SettingColor(255, 255, 255));
     public final Setting<SettingColor> textDimColor = color(sgTextColors, "text-deactive-color", "Color of deactivated text.", new SettingColor(40, 40, 40, 80));
     public final Setting<SettingColor> textHighlightColor = color(sgTextColors, "text-highlight", "Color of text highlighting.", new SettingColor(45, 125, 245, 255));
-    
+
     public final Setting<SettingColor> textSecondaryColor = color(sgTextColors, "text-secondary-text", "Color of secondary text.", new SettingColor(150, 150, 150));
     public final Setting<SettingColor> titleTextColor = color(sgTextColors, "title-text", "Color of title text.", new SettingColor(255, 255, 255));
     public final Setting<SettingColor> loggedInColor = color(sgTextColors, "logged-in-text", "Color of logged in account name.", new SettingColor(45, 225, 45));
@@ -170,7 +170,7 @@ public class GonbleWareGuiTheme extends GuiTheme {
     private final Setting<SettingColor> starscriptAccessedObjects = color(sgStarscript, "starscript-accessed-objects", "Color of accessed objects (before a dot) in Starscript code.", new SettingColor(152, 118, 170));
 
     public GonbleWareGuiTheme() {
-        super("GonbleWare");
+        super("Cozy");
 
         settingsFactory = new DefaultSettingsWidgetFactory(this);
     }

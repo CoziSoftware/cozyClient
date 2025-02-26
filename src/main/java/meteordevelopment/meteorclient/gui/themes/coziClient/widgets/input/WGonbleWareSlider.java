@@ -3,11 +3,11 @@
  * Copyright (c) Meteor Development.
  */
 
-package meteordevelopment.meteorclient.gui.themes.gonbleware.widgets.input;
+package meteordevelopment.meteorclient.gui.themes.coziClient.widgets.input;
 
 import meteordevelopment.meteorclient.gui.renderer.GuiRenderer;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.GonbleWareGuiTheme;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.GonbleWareWidget;
+import meteordevelopment.meteorclient.gui.themes.coziClient.GonbleWareGuiTheme;
+import meteordevelopment.meteorclient.gui.themes.coziClient.GonbleWareWidget;
 import meteordevelopment.meteorclient.gui.widgets.input.WSlider;
 
 public class WGonbleWareSlider extends WSlider implements GonbleWareWidget {

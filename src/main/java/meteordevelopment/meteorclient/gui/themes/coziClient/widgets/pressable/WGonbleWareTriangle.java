@@ -3,10 +3,10 @@
  * Copyright (c) Meteor Development.
  */
 
-package meteordevelopment.meteorclient.gui.themes.gonbleware.widgets.pressable;
+package meteordevelopment.meteorclient.gui.themes.coziClient.widgets.pressable;
 
 import meteordevelopment.meteorclient.gui.renderer.GuiRenderer;
-import meteordevelopment.meteorclient.gui.themes.gonbleware.GonbleWareWidget;
+import meteordevelopment.meteorclient.gui.themes.coziClient.GonbleWareWidget;
 import meteordevelopment.meteorclient.gui.widgets.pressable.WTriangle;
 
 public class WGonbleWareTriangle extends WTriangle implements GonbleWareWidget {
